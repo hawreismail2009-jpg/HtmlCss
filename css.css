@@ -1,0 +1,46 @@
+label { font-weight: bold; }
+
+
+
+input { border: 2px solid gray; }
+
+
+
+#email { background-color: lightblue; }
+
+
+
+.verplicht { border: 3px solid orange; }
+
+
+
+fieldset label { font-style: italic; }
+
+
+
+button, select { background-color: orange; }
+
+
+
+button:hover { background-color: darkorange; }
+
+
+
+input:focus { border-color: orange; }
+
+
+
+input[type="text"] { background-color: yellow; }
+
+
+
+.verplicht:invalid { border-color: red; }
+
+
+
+input { padding: 8px; }
+
+
+
+input { margin-bottom: 12px; }
+

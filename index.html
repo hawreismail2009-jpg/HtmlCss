@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Toernooi</title>
+
+  <link rel="stylesheet" href="css.css">
+
+</head>
+
+<body>
+
+  <form action="aanmelden.html">
+
+    <fieldset>
+
+      <legend>Over jou</legend>
+
+      <label for="tag">Gamertag</label>
+
+      <input type="text" id="tag" name="tag" class="verplicht" required minlength="3" maxlength="16">
+
+      <label for="email">E-mail</label>
+
+      <input type="email" id="email" name="email" class="verplicht" required>
+
+      <label for="wachtwoord">Wachtwoord</label>
+
+      <input type="password" id="wachtwoord" name="wachtwoord" class="verplicht" required>
+
+      <label for="leeftijd">Leeftijd</label>
+
+      <input type="number" id="leeftijd" name="leeftijd" min="12">
+
+    </fieldset>
+
+
+
+    <fieldset>
+
+      <legend>Toernooi</legend>
+
+      Platform:
+
+      <input type="radio" id="pc" name="platform" value="pc" checked>
+
+      <label for="pc">PC</label>
+
+      <input type="radio" id="console" name="platform" value="console">
+
+      <label for="console">Console</label>
+
+      <input type="radio" id="mobiel" name="platform" value="mobiel">
+
+      <label for="mobiel">Mobiel</label>
+
+
+
+      Dagen:
+
+      <input type="checkbox" id="za" name="dagen" value="za" checked>
+
+      <label for="za">zaterdag</label>
+
+      <input type="checkbox" id="zo" name="dagen" value="zo">
+
+      <label for="zo">zondag</label>
+
+
+
+      <label for="land">Land</label>
+
+      <select id="land" name="land">
+
+        <option>Nederland</option>
+
+        <option>België</option>
+
+        <option>Duitsland</option>
+
+      </select>
+
+
+
+      <label for="opm">Opmerking</label>
+
+      <textarea id="opm" name="opm" rows="3"></textarea>
+
+    </fieldset>
+
+
+
+    <button>Meld je aan</button>
+
+  </form>
+
+</body>
+
+</html>
